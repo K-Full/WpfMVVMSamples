@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMVVMSamples", "WpfMVVMSa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicObserverSample", "DynamicObserver\DynamicObserverSample.csproj", "{29D82A1F-F53C-4531-8CF7-900ABF873CF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyChangingFodySample", "PropertyChangingFodySample\PropertyChangingFodySample.csproj", "{5B6C0A19-5FDE-454A-B761-7F61A6E9D556}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{29D82A1F-F53C-4531-8CF7-900ABF873CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29D82A1F-F53C-4531-8CF7-900ABF873CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29D82A1F-F53C-4531-8CF7-900ABF873CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6C0A19-5FDE-454A-B761-7F61A6E9D556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6C0A19-5FDE-454A-B761-7F61A6E9D556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6C0A19-5FDE-454A-B761-7F61A6E9D556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6C0A19-5FDE-454A-B761-7F61A6E9D556}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
