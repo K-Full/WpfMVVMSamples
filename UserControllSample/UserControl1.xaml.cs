@@ -24,7 +24,7 @@ namespace UserControllSample
         public static readonly DependencyProperty LabelProperty
             = DependencyProperty.Register("Label", typeof(string), typeof(UserControl1));//, new UIPropertyMetadata("Label"));
 
-        [BindableAttribute(true)]
+        //[BindableAttribute(true)]
         public string Label
         {
             get { return (string)GetValue(LabelProperty); }
@@ -33,7 +33,7 @@ namespace UserControllSample
         public UserControl1()
         {
             InitializeComponent();
-            Label = "testest";
+            //Label = "testest";
         }
     }
 }

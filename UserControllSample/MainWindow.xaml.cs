@@ -19,9 +19,15 @@ namespace UserControllSample
     public class MainWindowViewModel
     {
         public ReactiveProperty<string> lab { get; private set; } = new ReactiveProperty<string>("tes");
+
+        public ReactiveProperty<bool> IsChecked1 { get; private set; } = new ReactiveProperty<bool>(false);
+        public ReactiveProperty<bool> IsChecked2 { get; private set; } = new ReactiveProperty<bool>(false);
+        public ReactiveProperty<bool> IsChecked3 { get; private set; } = new ReactiveProperty<bool>(false);
+
+
         public MainWindowViewModel()
         {
-
+            IsChecked1.Value = true;
         }
     }
 
