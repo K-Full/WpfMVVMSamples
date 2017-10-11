@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLayoutCircleSample", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxSample", "RxSample\RxSample.csproj", "{B7B6631F-9668-4253-8E31-4997A30081BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionSample", "ExpressionSample\ExpressionSample.csproj", "{2E1FA579-01FF-473E-A328-8A2BDD6EA0C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebuggerAttributeSample", "DebuggerAttributeSample\DebuggerAttributeSample.csproj", "{927AE2E7-CD8B-424F-9F16-DC700858D076}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{B7B6631F-9668-4253-8E31-4997A30081BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7B6631F-9668-4253-8E31-4997A30081BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7B6631F-9668-4253-8E31-4997A30081BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E1FA579-01FF-473E-A328-8A2BDD6EA0C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1FA579-01FF-473E-A328-8A2BDD6EA0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1FA579-01FF-473E-A328-8A2BDD6EA0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1FA579-01FF-473E-A328-8A2BDD6EA0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{927AE2E7-CD8B-424F-9F16-DC700858D076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{927AE2E7-CD8B-424F-9F16-DC700858D076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{927AE2E7-CD8B-424F-9F16-DC700858D076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{927AE2E7-CD8B-424F-9F16-DC700858D076}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

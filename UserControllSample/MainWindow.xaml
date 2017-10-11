@@ -8,12 +8,14 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <StackPanel>
-            <RadioButton Content="1" IsChecked="{Binding IsChecked1.Value}"/>
-            <RadioButton Content="2" IsChecked="{Binding IsChecked2.Value}"/>
-            <RadioButton Content="3" IsChecked="{Binding IsChecked3.Value}"/>
-            <Label Height="20" Content="{Binding lab.Value}" />
-            <Button Height="20" Click="Button_Click"></Button>
-            <local:UserControl1 Label="{Binding lab.Value}" />
+            <RadioButton Content="1" IsChecked="{Binding VM.IsChecked1.Value}"/>
+            <RadioButton Content="2" IsChecked="{Binding VM.IsChecked2.Value}"/>
+            <RadioButton Content="3" IsChecked="{Binding VM.IsChecked3.Value}"/>
+            <Label Content="testttes" />
+            <Label Content="{Binding VM2.Mystr.Value}" />
+            <Label Content="{Binding VM.lab.Value}" />
+            <Button Command="{Binding VM.LabPlus, Mode=OneWay}"></Button>
+            <local:UserControl1 Label="{Binding VM.lab.Value}" />
         </StackPanel>
     </Grid>
 </Window>
