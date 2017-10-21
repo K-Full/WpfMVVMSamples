@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionSample", "Express
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebuggerAttributeSample", "DebuggerAttributeSample\DebuggerAttributeSample.csproj", "{927AE2E7-CD8B-424F-9F16-DC700858D076}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepCloneSample", "DeepCloneSample\DeepCloneSample.csproj", "{43B9E46A-BF2C-4C17-98C7-387028F72B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimetionSample", "AnimetionSample\AnimetionSample.csproj", "{171207D0-25BB-4F5F-A2D6-FC86C0D1D7DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{927AE2E7-CD8B-424F-9F16-DC700858D076}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{927AE2E7-CD8B-424F-9F16-DC700858D076}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{927AE2E7-CD8B-424F-9F16-DC700858D076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B9E46A-BF2C-4C17-98C7-387028F72B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B9E46A-BF2C-4C17-98C7-387028F72B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B9E46A-BF2C-4C17-98C7-387028F72B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B9E46A-BF2C-4C17-98C7-387028F72B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171207D0-25BB-4F5F-A2D6-FC86C0D1D7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171207D0-25BB-4F5F-A2D6-FC86C0D1D7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171207D0-25BB-4F5F-A2D6-FC86C0D1D7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171207D0-25BB-4F5F-A2D6-FC86C0D1D7DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
