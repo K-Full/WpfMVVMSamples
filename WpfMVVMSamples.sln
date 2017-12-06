@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepCloneSample", "DeepClon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimetionSample", "AnimetionSample\AnimetionSample.csproj", "{171207D0-25BB-4F5F-A2D6-FC86C0D1D7DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{D348A999-4844-4E3E-9999-A202537FA714}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{171207D0-25BB-4F5F-A2D6-FC86C0D1D7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{171207D0-25BB-4F5F-A2D6-FC86C0D1D7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{171207D0-25BB-4F5F-A2D6-FC86C0D1D7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D348A999-4844-4E3E-9999-A202537FA714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D348A999-4844-4E3E-9999-A202537FA714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D348A999-4844-4E3E-9999-A202537FA714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D348A999-4844-4E3E-9999-A202537FA714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

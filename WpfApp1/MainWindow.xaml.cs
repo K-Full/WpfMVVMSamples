@@ -1,6 +1,6 @@
-﻿using System;
+﻿using Reactive.Bindings;
+using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,8 +14,19 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WrapPanelSample
+namespace WpfApp1
 {
+    public class RxVM
+    {
+        public ReactiveProperty<string> Str { get; private set; } = new ReactiveProperty<string>("aa");
+        public ReactiveProperty<string> Str2 { get; private set; } = new ReactiveProperty<string>("");
+
+        public RxVM()
+        {
+            Str.Subscribe(value => Str2.Value = value + "!");
+        }
+    }
+
     /// <summary>
     /// MainWindow.xaml の相互作用ロジック
     /// </summary>
@@ -24,14 +35,7 @@ namespace WrapPanelSample
         public MainWindow()
         {
             InitializeComponent();
-            PresentationTraceSources.DataBindingSource.Listeners.Add(
-                    new ConsoleTraceListener());
-            PresentationTraceSources.DataBindingSource.Switch.Level = SourceLevels.All;
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            var i = new Dictionary<string, string>();
+            DataContext = new RxVM();
         }
     }
 }
