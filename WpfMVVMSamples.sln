@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimetionSample", "Animetio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{D348A999-4844-4E3E-9999-A202537FA714}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTryCatch", "asyncTryCatch\AsyncTryCatch.csproj", "{A00A32C3-4B43-4489-8E24-F5165E5AE4A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCompletionSourceSample", "TaskCompletionSourceSample\TaskCompletionSourceSample.csproj", "{CED5D794-2448-401D-B5AE-2A46E1792AF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{D348A999-4844-4E3E-9999-A202537FA714}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D348A999-4844-4E3E-9999-A202537FA714}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D348A999-4844-4E3E-9999-A202537FA714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A00A32C3-4B43-4489-8E24-F5165E5AE4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00A32C3-4B43-4489-8E24-F5165E5AE4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00A32C3-4B43-4489-8E24-F5165E5AE4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00A32C3-4B43-4489-8E24-F5165E5AE4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED5D794-2448-401D-B5AE-2A46E1792AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED5D794-2448-401D-B5AE-2A46E1792AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED5D794-2448-401D-B5AE-2A46E1792AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED5D794-2448-401D-B5AE-2A46E1792AF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
